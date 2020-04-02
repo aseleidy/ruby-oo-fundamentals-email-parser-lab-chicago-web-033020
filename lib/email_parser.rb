@@ -12,7 +12,7 @@ class EmailAddressParser
   
   def parse 
     @emails.split(/[,\s]+/)
-    @emails.uni
+    @emails.uniq
     # self.emails. do |email|
     #   if email[email.length - 1] == ','
     #     email.chomp(',')
