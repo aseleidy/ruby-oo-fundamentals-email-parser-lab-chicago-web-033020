@@ -12,7 +12,8 @@ class EmailAddressParser
   
   def parse 
     array = []
-    # @emails.split(/[,\s]+/)
+    @emails.split(/[,\s]+/)
+    array << @emails
     # self.emails. do |email|
     #   if email[email.length - 1] == ','
     #     email.chomp(',')
