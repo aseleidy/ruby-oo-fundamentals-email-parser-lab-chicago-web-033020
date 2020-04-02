@@ -12,11 +12,11 @@ class EmailAddressParser
   
   def parse 
     array = []
-    @emails.split(/[,\s]+/)
-    self.emails. do |email|
-      if email[email.length - 1] == ','
-        email.chomp(',')
-      end 
-    end 
+    # @emails.split(/[,\s]+/)
+    # self.emails. do |email|
+    #   if email[email.length - 1] == ','
+    #     email.chomp(',')
+    #   end 
+    # end 
   end 
 end 
